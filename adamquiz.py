@@ -139,11 +139,11 @@ correct = 0
 print(" ")
 random.shuffle(questions)
 item = 0
-
-for question in questions:
+q = questions[:20]
+for question in q:
     item = item + 1
     print("\n\n")
-    print(str(item) + " / " + str(len(questions)))
+    print(str(item) + " / " + str(len(q)))
     question.printQuestion()
     answer = raw_input("answer:")
     print(answer)
