@@ -180,8 +180,8 @@ for question in q:
     print(answer)
     if question.isCorrect(answer):
         print("---------------")
-        for x in range(30):
-            print("ok"* x)
+        for x in range(10):
+            print("ok!"* x)
         print("---------------")
         correct = correct + 1
     else:
