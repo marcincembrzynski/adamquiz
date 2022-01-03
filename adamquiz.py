@@ -103,12 +103,12 @@ SynQuestion("prudent", ["sorry", "perfect", "worry", "wise"], "wise"),
 SynQuestion("interrogate", ["question", "intact", "elevate", "medidate"], "question"),
 SynQuestion("mature", ["young", "ripe", "lessen", "control"], "ripe"),
 SynQuestion("construct", ["allow", "build", "debate", "demolish"], "build"),
-SynQuestion("persuage", ["convince", "pressure", "agree", "allow"], "convince"),
+SynQuestion("persuade", ["convince", "pressure", "agree", "allow"], "convince"),
 SynQuestion("recall", ["telephone", "retain", "remember", "shout"], "remember"),
 SynQuestion("weary", ["weird", "clothes", "tired", "excited"], "tired"),
 SynQuestion("dilligent", ["silly", "lazy", "slow", "hardworking"], "hardworking"),
 SynQuestion("assault", ["attack", "condiment", "embrace", "flee"], "attack"),
-SynQuestion("tepid", ["treatment", "scary", "tired", "lukewarn"], "lukewarn"),
+SynQuestion("tepid", ["treatment", "scary", "tired", "lukewarm"], "lukewarm"),
 SynQuestion("ponder", ["consider", "worry", "talk", "boast"], "consider"),
 SynQuestion("remain", ["leave", "stay", "depart", "part"], "stay"),
 SynQuestion("disperse", ["scatter", "combine", "displease", "gather"], "scatter"),
@@ -131,7 +131,38 @@ SynQuestion("surrender", ["yield", "give back", "frugal", "advance"], "yield"),
 SynQuestion("suspend", ["accept", "hang", "convert", "frequent"], "hang"),
 SynQuestion("terror", ["anxious", "dog", "option", "fear"], "fear"),
 SynQuestion("tested", ["exam", "tried", "strange", "normal"], "tried"),
-SynQuestion("thrust", ["leap", "tense", "pushed", "placid"], "pushed")
+SynQuestion("thrust", ["leap", "tense", "pushed", "placid"], "pushed"),
+
+AntQuestion("artificial", ["allow", "genuine", "debate", "demolish"], "genuine"),
+AntQuestion("plural", ["convince", "detract", "singular", "allow"], "singular"),
+AntQuestion("poverty", ["wealth", "retain", "remember", "present"], "wealth"),
+AntQuestion("compulsory", ["weird", "voluntary", "tired", "excited"], "voluntary"),
+AntQuestion("diligent", ["silly", "lazy", "slow", "hardworking"], "lazy"),
+AntQuestion("permanent", ["attack", "condiment", "temporary", "flee"], "temporary"),
+AntQuestion("reward", ["treatment", "discipline", "tired", "punishment"], "punishment"),
+AntQuestion("deny", ["condider", "worry", "admit", "boast"], "admit"),
+AntQuestion("severe", ["leave", "stay", "depart", "mild"], "mild"),
+AntQuestion("conceal", ["combine", "displease", "gather", "reveal"], "reveal"),
+AntQuestion("tranquil", ["order", "ordeal", "smell", "rough"], "rought"),
+AntQuestion("barren", ["fertile", "kind", "abroad", "sudden"], "fertile"),
+AntQuestion("permit", ["build", "understand", "forbid", "long"], "forbid"),
+AntQuestion("foolish", ["willing", "unwilling", "resistant", "wise"], "wise"),
+AntQuestion("frightened", ["scarce", "calm", "retreat", "leave"], "calm"),
+AntQuestion("transparent", ["opaque", "clear", "genuine", "bright"], "opaque"),
+AntQuestion("plain", ["fancy", "easy", "simple", "hard"], "fancy"),
+AntQuestion("pedestrian", ["climber", "walker", "pilot", "motorist"], "motorist"),
+AntQuestion("hero", ["coward", "simple", "adult", "infant"], "coward"),
+AntQuestion("giant", ["glad", "massive", "dwarf", "jolly"], "dwarf"),
+AntQuestion("unknown", ["fancy", "condiment", "well", "famous"], "famous"),
+AntQuestion("smile", ["grin", "frown", "mouth", "pout"], "frown"),
+AntQuestion("generous", ["consider", "mean", "kind", "boast"], "mean"),
+AntQuestion("height", ["below", "breadth", "depth", "under"], "depth"),
+AntQuestion("sober", ["combine", "displease", "drunk", "reveal"], "drunk"),
+AntQuestion("foreign", ["native", "odd", "strange", "fortune"], "native"),
+AntQuestion("obese", ["fertile", "large", "gaunt", "sudden"], "gaunt"),
+AntQuestion("deny", ["doubt", "understand", "forbid", "confirm"], "confirm"),
+AntQuestion("expand", ["grow", "contract", "rest", "enlarge"], "contract"),
+AntQuestion("flow", ["scarce", "rush", "retreat", "ebb"], "ebb")
 
 ]
 
@@ -161,4 +192,4 @@ for question in q:
     raw_input("press any key to continue....")
 
 print("correct: ", correct)
-print("not correct: ", len(questions) - correct)
+print("not correct: ", len(q) - correct)
