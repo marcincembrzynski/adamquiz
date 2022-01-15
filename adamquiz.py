@@ -162,7 +162,24 @@ AntQuestion("foreign", ["native", "odd", "strange", "fortune"], "native"),
 AntQuestion("obese", ["fertile", "large", "gaunt", "sudden"], "gaunt"),
 AntQuestion("deny", ["doubt", "understand", "forbid", "confirm"], "confirm"),
 AntQuestion("expand", ["grow", "contract", "rest", "enlarge"], "contract"),
-AntQuestion("flow", ["scarce", "rush", "retreat", "ebb"], "ebb")
+AntQuestion("flow", ["scarce", "rush", "retreat", "ebb"], "ebb"),
+
+AntQuestion("feeble", ["tease", "permanent", "weak", "strong"], "strong"),
+AntQuestion("foe", ["fiend", "faux", "friend", "fool"], "friend"),
+AntQuestion("folly", ["fool", "wish", "wisdom", "kingdom"], "wisdom"),
+AntQuestion("fickle", ["host", "loyal", "friend", "ferocious"], "loyal"),
+AntQuestion("former", ["latent", "lament", "latter", "late"], "latter"),
+AntQuestion("fragile", ["robot", "both", "robust", "bust"], "robust"),
+AntQuestion("frail", ["rail", "strong", "weak", "trail"], "strong"),
+AntQuestion("frivolous", ["fabulous", "absolute", "sensitive", "sensible"], "sensible"),
+AntQuestion("gain", ["grain", "loss", "advantage", "reaction"], "loss"),
+AntQuestion("glad", ["glide", "glut", "silly", "sorry"], "sorry"),
+AntQuestion("goad", ["glad", "good", "bad", "pacify"], "pacify"),
+AntQuestion("gobble", ["nibble", "noble", "gob", "grab"], "nibble"),
+AntQuestion("graceful", ["gleeful", "grateful", "gull", "clumsy"], "clumsy"),
+AntQuestion("gradual", ["grade", "good", "sudden", "sullen"], "sudden"),
+AntQuestion("greatest", ["superlative", "less", "least", "leash"], "least")
+
 
 ]
 
