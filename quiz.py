@@ -17,6 +17,22 @@ class Question:
             print(choice)
         print("---------------")
 
+
+class AntQuestion(Question):
+    def __init__(self, question, choices, correct):
+        self.question = question
+        self.choices = choices
+        self.correct = correct
+        self.kind = "antonym"
+        
+    def printQuestion(self):
+        print("enter " + self.kind + " for: " + self.question)
+        print("---------------")
+        for choice in self.choices:
+            print(choice)
+        print("---------------")
+
+
 class SynQuestion(Question):
     def __init__(self, question, choices, correct):
         self.question = question
@@ -37,12 +53,7 @@ class NotSynQuestion(Question):
             print(choice)
         print("---------------")
 
-class AntQuestion(Question):
-    def __init__(self, question, choices, correct):
-        self.question = question
-        self.choices = choices
-        self.correct = correct
-        self.kind = "antonym"
+
 
 
 
